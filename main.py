@@ -47,7 +47,6 @@ class snake:
         self.dirY = 1
 
     def move(self):
-        # webscrapping check it out
         for event in pygame.event.get():
             if event.type == pygame.QUIT:
                 pygame.quit()
